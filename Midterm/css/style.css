@@ -1,0 +1,152 @@
+@import url("https://fonts.googleapis.com/css2?family=Black+Han+Sans&family=Noto+Sans+KR:wght@100..900&family=Playfair:ital,opsz,wght@0,5..1200,300..900;1,5..1200,300..900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+h1,
+h2,
+h3,
+h4,
+nav {
+  font-family: "Playfair", "bold";
+  line-height: 1.6;
+}
+
+nav {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  background-color: transparent; /* 헤더 이미지 위에서 투명하게 */
+  z-index: 100; /* 다른 요소들보다 위에 위치 */
+  text-align: center;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 20px 0;
+  margin: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin: 0 15px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav ul li a:hover {
+  color: #ddd; /* 마우스를 올렸을 때 색상 변화 */
+}
+
+body {
+  font-family: "Arial", sans-serif;
+  line-height: 1.6;
+  background-color: #f5f5f5;
+}
+header {
+  background-image: url("../img/main_img.png"); /* replace with the actual image */
+  background-size: cover;
+  background-position: center;
+  height: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+header h1 {
+  font-size: 4rem;
+  text-align: center;
+}
+header p {
+  font-size: 1.2rem;
+}
+.content {
+  width: 80%;
+  margin: 0 auto;
+  padding: 2rem 0;
+}
+section {
+  margin-bottom: 100px;
+}
+section h2 {
+  text-align: center;
+  font-size: 42px;
+  margin-bottom: 100px;
+}
+
+h3 {
+  text-align: center;
+  font-size: 24px;
+  margin-bottom: 8px;
+}
+section h3 {
+  text-align: right;
+  font-size: 40px;
+  margin-bottom: 21px;
+}
+
+section h4 {
+  text-align: left;
+  font-size: 40px;
+  margin-bottom: 21px;
+}
+
+.custom-line {
+  border: 0;
+  height: 1px;
+  background-color: #757575;
+  margin: 4px auto;
+  width: 40px;
+  margin-bottom: 56px;
+}
+.day-info {
+  margin-bottom: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: top;
+}
+.day-info img {
+  width: 100%;
+  max-width: 700px;
+  height: auto;
+  margin-bottom: 1rem;
+}
+.day-info .text {
+  text-align: left;
+}
+.day-info .text p {
+  font-size: 18px;
+  margin-bottom: 16px;
+}
+.chart-placeholder {
+  width: 100%;
+  /* max-width: 600px; */
+  height: 216px;
+  background-color: #e0e0e0;
+  border: 1px solid #ccc;
+  /* margin-bottom: 2rem; */
+}
+footer {
+  text-align: center;
+  padding: 2rem 0;
+  background-color: #333;
+  color: white;
+}
+
+@media (min-width: 768px) {
+  .day-info {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .day-info img,
+  /* .day-info .chart-placeholder, */
+  .day-info .text {
+    width: 48%;
+  }
+}
