@@ -1,0 +1,388 @@
+<html>
+  <head>
+    <!-- JQuery Load -->
+    <script src="https://code.highcharts.com/highcharts.js"></script>
+    <script src="https://code.highcharts.com/modules/exporting.js"></script>
+    <script src="https://code.highcharts.com/modules/export-data.js"></script>
+    <script src="https://code.highcharts.com/modules/accessibility.js"></script>
+    <script
+      src="https://code.jquery.com/jquery-3.7.1.js"
+      integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4="
+      crossorigin="anonymous"
+    ></script>
+    <!-- CSS Load -->
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/style.css" />
+
+    <script src="js/script.js"></script>
+  </head>
+  <body>
+    <body>
+      <header>
+        <nav>
+          <ul>
+            <li><a href="#day1">Day 01-03</a></li>
+            <li><a href="#day2">Day 04-06</a></li>
+            <li><a href="#day3">Day 07</a></li>
+            <li><a href="#day4">Day 08-10</a></li>
+            <li><a href="#day5">Day 11-12</a></li>
+            <li><a href="#day6">Day 13-14</a></li>
+            <li><a href="#overall">Total</a></li>
+          </ul>
+        </nav>
+        <div class="Head">
+          <h1>Hokkaido Trip</h1>
+          <hr
+            style="
+              border: 0;
+              height: 1px;
+              background-color: #fff;
+              width: 112px;
+              margin: 0 auto;
+              margin-bottom: 8px;
+            "
+          />
+          <p>January 2024 - Travel through the snowy landscapes</p>
+        </div>
+      </header>
+      <div class="all-section">
+        <div class="content">
+          <!-- Day 01- 03 -->
+          <h3 id="day1">Day 01 - 03</h3>
+          <hr class="custom-line" />
+          <!-- Day 01 ver.Left-->
+
+          <section>
+            <h2>Sapporo</h2>
+            <div class="day-info">
+              <img src="img/day01_0.png" alt="Sapporo Day 1" />
+              <!-- Replace with actual image -->
+              <div class="text">
+                <h3>Sapporo, The city of Snow</h3>
+                <p>
+                  홋카이도에서의 첫번째로 도착한 눈의 도시, 삿포로였다 처음
+                  도착한 일본의 도시는 눈으로 가득 덮힌 새하얀 풍경이었다.
+                  그렇게 도착한 나와 친구는 눈이 덮힌 거리를 열심히 돌아다녔다.
+                  평생을 겪지 못한 나의 눈은 새하얀 눈에 한동안 눈이 팔려있었다
+                </p>
+                <div class="foothead">steps</div>
+                <div id="chart-placeholder_01" class="chart-placeholder"></div>
+              </div>
+            </div>
+          </section>
+
+          <!-- Day 02 ver.two -->
+          <section>
+            <h2>Otaru</h2>
+            <div class="day-info">
+              <div class="text02">
+                <h4>Charming Streets of Otaru</h4>
+                <p style="margin-bottom: 100px">
+                  오타루의 운하는 차가운 겨울 날씨에서 수많은 조명들을 품어 빛이
+                  나고있으며, 마치 시간 속에 멈춘 듯한 풍경을 보여줬다. 오르골당
+                  건물안에서 만난 동화와 같은 풍경들은 따뜻하게 안아주는 느낌이
+                  들게 해주었으며 작고 귀여운 다양한 오르골들을 하나하나
+                  울려보며 작은 몸에서 크게 울려대는 소리들을 들을 수 있었다.
+                  초밥 골목에서 맛본 신선한 회의 맛은 잊을 수 없었다. 조용하고
+                  낭만적인 거리를 거닐며, 일본의 소도시 매력을 오롯이 느낄 수
+                  있었다.
+
+                  <br /><br />하얀 눈이 덮힌 운하거리는 하나의 상자를 화려하게
+                  포장해서 선물해주는 듯한 모습으로 나를 포함해 오타루를 찾는
+                  많은 관광객들의 눈을 즐겁게 해주었다.
+                </p>
+              </div>
+              <img src="img/day02_0.png" alt="Sapporo Day 1" />
+            </div>
+            <div class="day-info" style="margin-top: -10%">
+              <img src="img/day02_1.png" alt="Sapporo Day 1" />
+              <div class="text">
+                <div class="foothead">steps</div>
+                <div id="chart-placeholder_02" class="chart-placeholder"></div>
+              </div>
+            </div>
+          </section>
+
+          <!-- Day 03 ver.Right -->
+          <section>
+            <h2>Sapporo</h2>
+            <div class="day-info">
+              <div class="text">
+                <h4>Tradition Shrine in Sapporo</h4>
+                <p>
+                  삿포로의 신사는 고즈넉한 자연에 둘러싸여 있어 마치 다른 세상에
+                  온 듯한 느낌을 주었다. 참배를 하며 마음을 정리하고, 소원을
+                  담은 에마(絵馬)에 작은 소망을 적어 걸었다. 전통과 평온함이
+                  공존하는 신사에서, 일본 고유의 신비로운 매력을 깊이 느낄 수
+                  있었다.
+                </p>
+
+                <div class="foothead">steps</div>
+                <div id="chart-placeholder_03" class="chart-placeholder"></div>
+              </div>
+              <img src="img/day03_0.png" alt="Sapporo Day 1" />
+            </div>
+          </section>
+
+          <!-- Day 04- 06 -->
+          <h3 id="day2">Day 04-06</h3>
+          <hr class="custom-line" />
+          <!-- Day 04 l-->
+          <section>
+            <h2>Hakadate</h2>
+            <div class="day-info">
+              <img src="img/day04_0.png" alt="Sapporo Day 1" />
+              <!-- Replace with actual image -->
+              <div class="text">
+                <h3>A Local Journey on the City Train</h3>
+                <p>
+                  하코다테 시내에서 탄 전철은 여유롭고 일상적인 도시의 모습을
+                  가까이에서 느낄 수 있는 기회였다. 전철 안에는 출근하는
+                  사람들과 일상을 보내는 지역 주민들이 가득해 여행지라기보다는
+                  현지 생활의 일부가 된 기분이었다. 창밖으로 보이는 오래된
+                  건물과 바다 풍경이 어우러져, 짧지만 특별한 도시 속 전철 여행이
+                  되었다.
+                </p>
+                <div class="foothead">steps</div>
+                <div id="chart-placeholder_04" class="chart-placeholder"></div>
+              </div>
+            </div>
+          </section>
+          <!-- Day 05 r-->
+          <section>
+            <div class="day-info">
+              <div class="text">
+                <h4>A Winter Scene in Hakodate</h4>
+                <p>
+                  하코다테에서 눈이 소복하게 쌓인 나무들을 보니 겨울이 제대로
+                  느껴졌다. 가지마다 쌓인 눈이 반짝여서 보기만 해도 기분이
+                  좋았다. 조용한 거리와 잘 어울려서 그 장면이 특별하게 다가왔다.
+                  산책하면서 이렇게 예쁜 풍경을 만난 게 기억에 오래 남을 것
+                  같다. 도시 속에서 잠깐 자연을 느낄 수 있는 소중한 순간이었다.
+                </p>
+                <div class="foothead">steps</div>
+
+                <div id="chart-placeholder_05" class="chart-placeholder"></div>
+              </div>
+              <img src="img/day05_0.png" alt="Sapporo Day 1" />
+            </div>
+          </section>
+          <!-- Day 06 l-->
+          <section>
+            <div class="day-info">
+              <img src="img/day06_0.png" alt="Sapporo Day 1" />
+              <!-- Replace with actual image -->
+              <div class="text">
+                <h3>Snowy Morning by the Hakodate Coast</h3>
+                <p>
+                  하코다테의 바닷가 거리는 눈이 쌓이고 맑은 아침 하늘과 어우러져
+                  참 평화로웠다. 햇빛이 눈 위에서 반짝이고, 고요한 바다와 파란
+                  하늘이 잘 어울렸다. 사람도 많지 않아 한적한 분위기 속에서
+                  차가운 공기를 마시며 걸었다. 겨울 아침의 상쾌함이 그대로
+                  느껴져 기분 좋은 산책이 되었다.
+                </p>
+                <div class="foothead">steps</div>
+                <div id="chart-placeholder_06" class="chart-placeholder"></div>
+              </div>
+            </div>
+          </section>
+          <!-- Day 07 -->
+          <h3 id="day3">Day 07</h3>
+          <hr class="custom-line" />
+
+          <!-- Day 07 r-->
+          <section>
+            <h2>Noboribetsu</h2>
+            <div class="day-info">
+              <div class="text">
+                <h4>Thermal Bliss, Oni in Noboribetsu</h4>
+                <p>
+                  노보리베츠에서 만난 온천은 몸과 마음을 따뜻하게 해 주는 특별한
+                  경험이었다. 뜨거운 물에 몸을 담그니 하루의 피로가 풀리는
+                  듯했고, 주변의 산과 자연 경관이 더해져 온천이 더욱 인상
+                  깊었다. 곳곳에 도깨비 동상이 세워져 있어, 노보리베츠만의
+                  독특한 분위기를 더했다. 도깨비들은 마을의 상징처럼 느껴졌고,
+                  보는 재미도 있었다. 일본 특유의 전통과 지역 색깔이 잘 어우러진
+                  노보리베츠 온천 여행은 잊기 어려운 추억이 되었다.
+                </p>
+                <div class="foothead">steps</div>
+
+                <div id="chart-placeholder_07" class="chart-placeholder"></div>
+              </div>
+              <img src="img/day07_0.png" alt="Sapporo Day 1" />
+            </div>
+          </section>
+
+          <!-- Day 08-10 -->
+          <h3 id="day4">Day 08-10</h3>
+          <hr class="custom-line" />
+          <!-- Day 08 l-->
+          <section>
+            <h2>BIEI</h2>
+            <div class="day-info">
+              <img src="img/day08_0.png" alt="Sapporo Day 1" />
+              <!-- Replace with actual image -->
+              <div class="text">
+                <h3>Snow-Covered in Biei Village</h3>
+                <p>
+                  비에이에서 만난 작은 눈 덮인 마을은 마치 동화 속 풍경 같았다.
+                  눈이 소복이 쌓인 집들과 길이 고요하게 이어져 있어, 걷기만 해도
+                  마음이 차분해졌다. 들판과 산이 온통 하얗게 변해 있었고, 맑은
+                  하늘 아래 눈빛이 반짝였다. 마을 곳곳에서 따뜻한 연기가
+                  피어오르며 겨울의 정취가 더해졌다. 차가운 공기 속에서도 따뜻한
+                  평온함이 느껴지는, 오래 기억에 남을 장면이었다.
+                </p>
+                <div class="foothead">steps</div>
+                <div id="chart-placeholder_08" class="chart-placeholder"></div>
+              </div>
+            </div>
+          </section>
+          <!-- Day 09 ver.two -->
+          <section>
+            <div class="day-info">
+              <div class="text02">
+                <h4>A Lone Christmas Tree in Biei</h4>
+                <p style="margin-bottom: 100px">
+                  비에이에서 먼 길을 걷다 마주친 특별한 크리스마스 트리는 정말
+                  인상 깊었다. 눈 덮인 들판 한가운데 홀로 서 있는 나무가,
+                  소박하면서도 아름답게 빛났다. 주변이 조용해서 더욱더 그 나무에
+                  집중할 수 있었고, 마치 겨울 속 작은 기적을 발견한 기분이었다.
+                  하얀 눈과 어우러진 트리의 모습은 크리스마스의 따뜻함을
+                  전해줬다. 자연 속에서 만난 이 특별한 크리스마스 트리는 잊지
+                  못할 겨울의 한 장면으로 남았다
+                </p>
+              </div>
+              <img src="img/day09_0.png" alt="Sapporo Day 1" />
+            </div>
+            <div class="day-info" style="margin-top: -10%">
+              <img src="img/day09_1.png" alt="Sapporo Day 1" />
+              <div class="text">
+                <div class="foothead">steps</div>
+                <div id="chart-placeholder_09" class="chart-placeholder"></div>
+              </div>
+            </div>
+          </section>
+          <!-- Day 10 ver.two -->
+          <section>
+            <div class="day-info">
+              <div class="text02">
+                <h4>Winterland at Asahiyama Zoo</h4>
+                <p style="margin-bottom: 100px">
+                  비에이 근처 아사히야마 동물원에서는 눈 속에서 특별한 동물들을
+                  만날 수 있었다. 눈 덮인 우리와 동물들은 마치 겨울왕국 속에
+                  들어온 것처럼 느껴졌다. 특히 흰 털을 가진 북극곰과 펭귄들이
+                  눈과 잘 어우러져 더욱 인상적이었다. 차가운 공기 속에서도
+                  동물들은 활기차게 움직였고, 자연 그대로의 겨울 환경에서
+                  살아가는 모습이 신기했다. 눈이 만들어낸 이 독특한 동물원
+                  풍경은 정말 잊을 수 없는 경험이었다.
+                </p>
+              </div>
+              <img src="img/day10_0.png" alt="Sapporo Day 1" />
+            </div>
+            <div class="day-info" style="margin-top: -10%">
+              <img src="img/day10_2.JPEG" alt="Sapporo Day 1" />
+              <div class="text">
+                <div class="foothead">steps</div>
+                <div id="chart-placeholder_10" class="chart-placeholder"></div>
+              </div>
+            </div>
+          </section>
+
+          <!-- Day 11-12 -->
+          <h3 id="day5">Day 11-12</h3>
+          <hr class="custom-line" />
+          <!-- Day 11 r-->
+          <section>
+            <h2>Furano</h2>
+            <div class="day-info">
+              <div class="text">
+                <h4>Tradition Shrine in Sapporo</h4>
+                <p>
+                  후라노의 요정의 마을은 마치 동화 속에 들어온 듯한 느낌을
+                  주었다. 작은 오두막들과 오솔길이 눈으로 덮여, 마을 전체가
+                  환상적인 분위기로 가득했다. 각 오두막에는 불빛이 켜져 있어
+                  따뜻하고 아늑한 느낌이 들었다. 조용한 겨울 숲 속에서 걷다
+                  보니, 시간이 멈춘 듯한 평온함을 느낄 수 있었다. 후라노 요정의
+                  마을은 잊지 못할 겨울의 특별한 추억이 되었다.
+                </p>
+
+                <div class="foothead">steps</div>
+                <div id="chart-placeholder_11" class="chart-placeholder"></div>
+              </div>
+              <img src="img/day11_0.png" alt="Sapporo Day 1" />
+            </div>
+          </section>
+
+          <!-- Day 13-14 -->
+          <h3 id="day6">Day 13-14</h3>
+          <hr class="custom-line" />
+          <!-- Day 13 l-->
+          <section>
+            <h2>Sapporo</h2>
+            <div class="day-info">
+              <img src="img/day13_0.png" alt="Sapporo Day 1" />
+              <!-- Replace with actual image -->
+              <div class="text">
+                <h3>Night Views Over Sapporo Skyline</h3>
+                <p>
+                  마지막 날 삿포로로 돌아와 맑은 날씨 속에서 야경을 즐길 수
+                  있었다. 눈이 없는 도시는 또 다른 매력을 보여주었고, 깨끗한
+                  하늘 아래 삿포로의 불빛들이 선명하게 빛났다. 높은 곳에서
+                  바라본 도시 전경은 반짝이는 불빛과 함께 더욱 아름답게
+                  펼쳐졌다. 조용히 야경을 바라보며 여행을 돌아보니, 그동안의
+                  추억들이 하나씩 떠올랐다. 맑은 하늘 아래의 삿포로 야경은
+                  여운이 깊게 남는 마지막 순간이었다
+                </p>
+                <div class="foothead">steps</div>
+                <div id="chart-placeholder_13" class="chart-placeholder"></div>
+              </div>
+            </div>
+          </section>
+        </div>
+        <!-- Final Chart Section -->
+
+        <div class="Result-section" style="margin-top: 100px">
+          <h3 id="overall">Total</h3>
+          <hr class="custom-line" />
+          <div class="Result">
+            Total Distance Traveled Over 14 Days<br />
+            141.85 km
+          </div>
+          <section>
+            <div
+              id="result-placeholder"
+              class="result-placeholder"
+              style="height: 60%"
+            ></div>
+          </section>
+        </div>
+        <div class="Result">
+          Total Steps Walked Over 14 Days<br />
+          224,688 steps
+        </div>
+
+        <section>
+          <div
+            id="result-placeholder-2"
+            class="result-placeholder"
+            style="height: 60%"
+          ></div>
+        </section>
+        <div style="text-align: center; margin-bottom: 20px; color: #888">
+          해당 웹사이트는 Apple Fitness, Apple Health의 홋카이도에서의 14일간
+          데이터를 참조하여 작성되었습니다.
+        </div>
+      </div>
+
+      <footer>
+        <p>&copy; 2024 Hokkaido Trip Journal | All Rights Reserved</p>
+      </footer>
+    </body>
+  </body>
+</html>
+
+<!--
+html 뼈대
+Css 피부, 외관
+Js 근육
+-->
